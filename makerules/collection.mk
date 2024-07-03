@@ -43,8 +43,8 @@ COLLECTION_INDEX=\
 	$(COLLECTION_DIR)/resource.csv
 
 init::
-	curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)log.csv' > $(COLLECTION_DIR)log.csv
-	curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)resource.csv' > $(COLLECTION_DIR)resource.csv
+	- curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)log.csv' > $(COLLECTION_DIR)log.csv
+	- curl -qfsL '$(DATASTORE_URL)$(REPOSITORY)/$(COLLECTION_DIR)resource.csv' > $(COLLECTION_DIR)resource.csv
 
 first-pass:: collect
 
