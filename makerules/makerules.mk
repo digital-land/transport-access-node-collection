@@ -148,9 +148,9 @@ init:: config
 
 config::;
 
-# commit-makerules::
-#	git add makerules
-#	git diff --quiet && git diff --staged --quiet || (git commit -m "Updated makerules $(shell date +%F)"; git push origin $(BRANCH))
+commit-makerules::
+	git add makerules
+	git diff --quiet && git diff --staged --quiet || (git commit -m "Updated makerules $(shell date +%F)"; git push origin $(BRANCH))
 
 commit-collection::
 	@:
