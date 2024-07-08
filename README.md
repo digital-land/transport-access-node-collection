@@ -1,7 +1,7 @@
-# Transport access node collection
+# Transport access node collection ⚠️ Centralised
 
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/transport-access-node/blob/main/LICENSE)
-[![Run pipeline](https://github.com/digital-land/XXX-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/transport-access-node-collection/actions/workflows/run.yml)
+[![Run pipeline](https://github.com/digital-land/transport-access-node-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/transport-access-node-collection/actions/workflows/run.yml)
 
 The data and pipeline to build the [transport access node dataset](https://www.digital-land.info/dataset/transport-access-node).
 
