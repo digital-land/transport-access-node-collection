@@ -1,9 +1,9 @@
 # Transport access node collection
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/XXX/blob/main/LICENSE)
-[![Run pipeline](https://github.com/digital-land/XXX-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/XXX-collection/actions/workflows/run.yml)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/transport-access-node/blob/main/LICENSE)
+[![Run pipeline](https://github.com/digital-land/XXX-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/transport-access-node-collection/actions/workflows/run.yml)
 
-The data and pipeline to build the [XXX dataset](https://www.digital-land.info/dataset/XXX).
+The data and pipeline to build the [transport access node dataset](https://www.digital-land.info/dataset/transport-access-node).
 
 # Collection
 
@@ -13,9 +13,9 @@ The data and pipeline to build the [XXX dataset](https://www.digital-land.info/d
 
 *These files are now stored in AWS S3:*
 
-* [collection/log/](https://files.planning.data.gov.uk/XXX/collection/log/) — individual log JSON files, created by the collection process
-* [collection/log.csv](https://files.planning.data.gov.uk/XXX/collection/log.csv) — a collection log assembled from the individual log files, see [specification/log](https://digital-land.github.io/specification/schema/log)
-* [collection/resource.csv](https://files.planning.data.gov.uk/XXX/collection/resource.csv) — a list of collected resources, see [specification/resource](https://digital-land.github.io/specification/schema/resource)
+* [collection/log/](https://files.planning.data.gov.uk/transport-access-node/collection/log/) — individual log JSON files, created by the collection process
+* [collection/log.csv](https://files.planning.data.gov.uk/transport-access-node/collection/log.csv) — a collection log assembled from the individual log files, see [specification/log](https://digital-land.github.io/specification/schema/log)
+* [collection/resource.csv](https://files.planning.data.gov.uk/transport-access-node/collection/resource.csv) — a list of collected resources, see [specification/resource](https://digital-land.github.io/specification/schema/resource)
 
 # Updating the collection
 
